@@ -88,6 +88,6 @@
   background-color: var(--sk-lightblue-color) !important;
 }
 
-}
 div[class*="virtualkeyboard_KeyboardSpacer"] {
   background-color: var(--sk-blue-color) !important;
+}
