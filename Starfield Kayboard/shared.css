@@ -1,0 +1,93 @@
+.root {
+ --sk-white-color: #ede8d3;
+ --sk-background-color: #99968b;
+ --sk-lightblue-color: #4a658e;
+ --sk-blue-color: #2f4c79;
+ --sk-darkblue-color: #213150;
+ --sk-grey-color: #5b5b5b;
+ --sk-lightgray-color: #99968b;
+ --sk-yellow-color: #d8a74a;
+ --sk-orange-color: #e16136;
+ --sk-red-color: #c72334;
+ --sk-realwhite-color:#d3d9e6;
+}
+
+.DefaultTheme {
+  /* General variables */
+  --background-color: var(--sk-background-color);
+
+  /* Main Keyboard variables */
+  --key-focused-action-button-left-color: var(--sk-darkblue-color);
+  --key-focused-action-button-right-color: var(--sk-darkblue-color);
+  --key-action-button-glyph-color: var(--sk-realwhite-color);
+
+  --key-color: var(--sk-lightblue-color);
+  --key-focused-color: var(--sk-white-color);
+
+  --key-background-color: var(--sk-white-color);
+  --key-focused-background-color: var(--sk-darkblue-color);
+
+  /* Function Keys */
+  --key-meta-color: var(--sk-white-color);
+  --key-meta-background-color: var(--sk-blue-color);
+
+  --key-tab-color: var(--sk-white-color);
+  --key-tab-background-color: var(--sk-yellow-color);
+
+  --key-caps-color: var(--sk-white-color);
+  --key-caps-background-color: var(--sk-orange-color);
+
+  --key-shift-color: var(--sk-white-color);
+  --key-shift-background-color: var(--sk-red-color);
+
+  --key-enter-color: var(--sk-white-color);
+  --key-enter-background-color: var(--sk-orange-color);
+  --key-enter-action-button-glyph-color: var(--sk-white-color);
+
+  --key-backspace-color: var(--sk-white-color);
+  --key-backspace-background-color: var(--sk-yellow-color);
+
+  --key-spacebar-color: var(--sk-white-color);
+  --key-spacebar-background-color: var(--sk-grey-color);
+
+  --key-spacer-background-color: var(--sk-grey-color);
+
+  /* extendedkey Key variables */
+  --key-extendedkey-background-color: var(--sk-lightblue-color);
+  --key-extendedkey-color: var(--sk-white-color);
+
+  --key-extendedkey-focused-background-color: var(--sk-yellow-color);
+  --key-extendedkey-focused-color: var(--sk-white-color);
+
+  --key-extendedkey-hover-background-color:var(--sk-orange-color);
+  --key-extendedkey-hover-color: var(--sk-white-color);
+
+  /* Key Toggle variables */
+  --key-toggleon-background-color: var(--sk-lightblue-color);
+  --key-toggleon-color: var(--sk-white-color);
+  --key-toggleoneshot-color: var(--sk-red-color);
+
+  /* Emoji page variables */
+  --key-emoji-category-highlight-background-color: var(--sk-blue-color);
+  --key-emoji-focused-background-color: var(--sk-darkblue-color);
+
+  /* Mouse Pointer variables */
+  --key-touched-background-color: var(--sk-blue-color);
+  --key-touched-color: var(--sk-white-color);
+
+  --key-pointer-stroke-color: var(--sk-white-color);
+  --key-pointer-background-color: var(--sk-orange-color);
+
+  --key-deadkey-background-color: var(--sk-lightgray-color);
+  --key-deadkeyinactive-color: var(--sk-darkblue-color);
+  --key-deadkeyactive-color: var(--sk-lightblue-color);
+}
+
+.DefaultTheme div[class*="virtualkeyboard_KeyboardKey"][class*="virtualkeyboard_Touched"] {
+  color: var(--sk-white-color) !important;
+  background-color: var(--sk-lightblue-color) !important;
+}
+
+}
+div[class*="virtualkeyboard_KeyboardSpacer"] {
+  background-color: var(--sk-blue-color) !important;
