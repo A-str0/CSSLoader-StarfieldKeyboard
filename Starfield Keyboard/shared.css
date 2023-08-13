@@ -19,7 +19,7 @@
   /* Main Keyboard variables */
   --key-focused-action-button-left-color: var(--sk-darkblue-color);
   --key-focused-action-button-right-color: var(--sk-darkblue-color);
-  --key-action-button-glyph-color: var(--sk-realwhite-color);
+  --key-action-button-glyph-color: var(--sk-white-color);
 
   --key-color: var(--sk-lightblue-color);
   --key-focused-color: var(--sk-white-color);
@@ -38,6 +38,8 @@
   --key-caps-background-color: var(--sk-orange-color);
 
   --key-shift-color: var(--sk-white-color);
+  --key-shift-label-color: var(--sk-lightblue-color);
+  --key-focused-shift-label-color: var(--sk-white-color);
   --key-shift-background-color: var(--sk-red-color);
 
   --key-enter-color: var(--sk-white-color);
@@ -83,11 +85,12 @@
   --key-deadkeyactive-color: var(--sk-lightblue-color);
 }
 
-.DefaultTheme div[class*="virtualkeyboard_KeyboardKey"][class*="virtualkeyboard_Touched"] {
-  color: var(--sk-white-color) !important;
-  background-color: var(--sk-lightblue-color) !important;
+.virtualkeyboard_Keyboard_45rH7.DefaultTheme {
+  padding: 1px 1px 1px 1px;
 }
-
-div[class*="virtualkeyboard_KeyboardSpacer"] {
-  background-color: var(--sk-blue-color) !important;
+.virtualkeyboard_KeyboardKey_2KhPX.virtualkeyboard_Focused_21EoN img {
+  filter: invert(0);
+}
+.virtualkeyboard_KeyboardKeyHitArea_1YqjV {
+  padding: 1px 1px 1px 1px;
 }
