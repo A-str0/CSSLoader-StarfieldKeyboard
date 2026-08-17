@@ -83,6 +83,9 @@
   --key-deadkey-background-color: var(--sk-lightgray-color);
   --key-deadkeyinactive-color: var(--sk-darkblue-color);
   --key-deadkeyactive-color: var(--sk-lightblue-color);
+
+  --key-international-background-color: var(--sk-lightblue-color);
+  --key-international-color: var(--sk-white-color);
 }
 
 .virtualkeyboard_Keyboard_45rH7.DefaultTheme {
